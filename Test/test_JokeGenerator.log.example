@@ -1,0 +1,134 @@
+""2020-11-12 13:51:08" INFO Running test test_GreetUser"
+""2020-11-12 13:51:08" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:11" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:11" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:11" INFO Running test test_SeeInstructions"
+""2020-11-12 13:51:11" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:14" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:14" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:14" INFO Running test test_ExitFromMainMenu"
+""2020-11-12 13:51:14" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:16" INFO Running test test_SeeCategories"
+""2020-11-12 13:51:16" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:20" DEBUG Starting new HTTPS connection (1): api.chucknorris.io:443"
+""2020-11-12 13:51:21" DEBUG https://api.chucknorris.io:443 "GET /jokes//categories HTTP/1.1" 200 None"
+""2020-11-12 13:51:21" INFO Retrieve categories from external URL
+:['animal', 'career', 'celebrity', 'dev', 'explicit', 'fashion', 'food', 'history', 'money', 'movie', 'music', 'political', 'religion', 'science', 'sport', 'travel']
+"
+""2020-11-12 13:51:21" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:21" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:21" INFO Running test test_ViewJokesWithDefaultName"
+""2020-11-12 13:51:21" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:25" INFO 1 jokes are retrived."
+""2020-11-12 13:51:25" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:25" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:25" INFO Running test test_ViewJokesWithRandomName"
+""2020-11-12 13:51:25" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:29" INFO Using random name:Marcel Giurescu
+"
+""2020-11-12 13:51:29" DEBUG Starting new HTTPS connection (1): api.chucknorris.io:443"
+""2020-11-12 13:51:29" DEBUG https://api.chucknorris.io:443 "GET /jokes//categories HTTP/1.1" 200 None"
+""2020-11-12 13:51:29" INFO Retrieve categories from external URL
+:['animal', 'career', 'celebrity', 'dev', 'explicit', 'fashion', 'food', 'history', 'money', 'movie', 'music', 'political', 'religion', 'science', 'sport', 'travel']
+"
+""2020-11-12 13:51:30" INFO Using category: 11.music
+"
+""2020-11-12 13:51:30" INFO Choosing number of jokes: 4
+"
+""2020-11-12 13:51:30" INFO Less than 4 jokes are retrived."
+""2020-11-12 13:51:30" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:30" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:30" INFO Running test test_ExitFromInstructionMenu"
+""2020-11-12 13:51:30" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:33" INFO Running test test_CheckInvalidInputGreetingMenu"
+""2020-11-12 13:51:33" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:35" INFO Testing with input 0
+"
+""2020-11-12 13:51:35" INFO Testing with input h
+"
+""2020-11-12 13:51:35" INFO Testing with input 1
+"
+""2020-11-12 13:51:35" INFO Testing with input !
+"
+""2020-11-12 13:51:35" INFO Testing with input exit
+"
+""2020-11-12 13:51:35" INFO Testing with input 1000
+"
+""2020-11-12 13:51:35" INFO Testing with input help
+"
+""2020-11-12 13:51:35" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:35" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:35" INFO Running test test_CheckInvalidInputInstructionMenu"
+""2020-11-12 13:51:35" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:38" INFO Testing with input 0
+"
+""2020-11-12 13:51:38" INFO Testing with input ?
+"
+""2020-11-12 13:51:38" INFO Testing with input 1
+"
+""2020-11-12 13:51:38" INFO Testing with input .
+"
+""2020-11-12 13:51:38" INFO Testing with input exit
+"
+""2020-11-12 13:51:38" INFO Testing with input 1000
+"
+""2020-11-12 13:51:38" INFO Testing with input help
+"
+""2020-11-12 13:51:38" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:38" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:38" INFO Running test test_CheckInvalidNumberOfJokes"
+""2020-11-12 13:51:38" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:41" INFO Testing with input 0
+"
+""2020-11-12 13:51:41" INFO Testing with input 100
+"
+""2020-11-12 13:51:41" INFO Testing with input 10
+"
+""2020-11-12 13:51:41" INFO Testing with input -1
+"
+""2020-11-12 13:51:41" INFO Testing with input none
+"
+""2020-11-12 13:51:41" INFO Testing with input one
+"
+""2020-11-12 13:51:41" INFO Testing with input x
+"
+""2020-11-12 13:51:41" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:41" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:41" INFO Running test test_CheckInvalidCategory"
+""2020-11-12 13:51:41" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:43" DEBUG Starting new HTTPS connection (1): api.chucknorris.io:443"
+""2020-11-12 13:51:44" DEBUG https://api.chucknorris.io:443 "GET /jokes//categories HTTP/1.1" 200 None"
+""2020-11-12 13:51:44" INFO Testing with input 0
+"
+""2020-11-12 13:51:44" INFO Testing with input 17
+"
+""2020-11-12 13:51:44" INFO Testing with input -1
+"
+""2020-11-12 13:51:44" INFO Testing with input none
+"
+""2020-11-12 13:51:44" INFO Testing with input all
+"
+""2020-11-12 13:51:44" INFO Testing with input x
+"
+""2020-11-12 13:51:44" INFO Testing with input ?
+"
+""2020-11-12 13:51:44" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:44" DEBUG Object popen returncode is 0"
+""2020-11-12 13:51:44" INFO Running test test_CheckInvalidInputYesNoPrompt"
+""2020-11-12 13:51:44" INFO Succesfully started the JokeGenerator program!"
+""2020-11-12 13:51:47" INFO Testing with input 0
+"
+""2020-11-12 13:51:47" INFO Testing with input 1
+"
+""2020-11-12 13:51:47" INFO Testing with input x
+"
+""2020-11-12 13:51:47" INFO Testing with input yes
+"
+""2020-11-12 13:51:47" INFO Testing with input no
+"
+""2020-11-12 13:51:47" INFO Testing with input exit
+"
+""2020-11-12 13:51:47" INFO Testing with input help
+"
+""2020-11-12 13:51:47" INFO Closing the JokeGenerator program..."
+""2020-11-12 13:51:47" DEBUG Object popen returncode is 0"
