@@ -11,12 +11,11 @@ pip install -U pytest
 
 ## Software Version:
 
-Python 3.6.1
-pytest-6.1.2
+python 3.6.1, pytest-6.1.2
 
 ## Run Tests
-Copy the *Test* folder under joke-generator-master/JokeGenerator/. Under 
-joke-generator-master/JokeGenerator/test, run
+Copy the *Test* folder under *joke-generator-master/JokeGenerator/*. Under 
+*joke-generator-master/JokeGenerator/Test*, run
 
 ```bash
 pytest test_JokeGenerator.py
