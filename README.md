@@ -11,7 +11,7 @@ pip install -U pytest
 
 ## Software Version:
 
-Python 3.6.1
+Python 3.6.1,
 pytest-6.1.2
 
 ## Run Tests
