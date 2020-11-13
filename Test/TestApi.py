@@ -57,8 +57,8 @@ def checkExit(p):
 		return False
 
 	# returncode values:
-	# None if the pess is not closed yet
-	# negative value -N if the pess was terminated by signal N
+	# None if the process is not closed yet
+	# negative value -N if the process was terminated by signal N
 	returnCode = p.poll()
 	if returnCode == None:
 		testLogger.debug(
